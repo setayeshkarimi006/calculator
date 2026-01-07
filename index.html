@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>calculator</title>
+  </head>
+  <body>
+    <h1 class="w">made by smart 
+      student:</h1>
+
+    <div class="body" id="app">
+      <div class="calculator">
+    <br>
+    <button class="f" onclick="press('7')">7</button>
+    <button class="f" onclick="press('8')">8</button>
+    <button class="f" onclick="press('9')">9</button>
+    <button class="f" onclick="press('/')">÷</button>
+    <button class="f" onclick="sqrt()">√</button>
+    <button class="f" onclick="square()">x²</button> 
+    <br>
+    <button class="s" onclick="press('4')">4</button>
+    <button class="s" onclick="press('5')">5</button>
+    <button class="s" onclick="press('6')">6</button>
+    <button class="s" onclick="press('*')">×</button>
+    <button class="s" onclick="power()">xʸ</button> 
+    <button class="s" onclick="ln()">ln</button>
+
+    <br>
+    <button class="t" onclick="press('1')">1</button>
+    <button class="t" onclick="press('2')">2</button>
+    <button class="t" onclick="press('3')">3</button>
+    <button class="t" onclick="press('-')">−</button>
+    <button class="t" onclick="log10()">log</button>
+    <button class="t" onclick="sinFunc()">sin</button> 
+
+    <br>
+    <button class="d" onclick="press('0')">0</button>
+    <button class="d" onclick="press('.')">.</button>
+    <button class="d" onclick="calculate()">=</button>
+    <button class="d" onclick="press('+')">+</button>
+    <button class="d" onclick="cosFunc()">cos</button>
+    <button class="d" onclick="tanFunc()">tan</button>
+    <br>
+    <button class="q" onclick="atanFunc()">atan</button>
+    <button class="q" onclick="clearDisplay()">C</button> 
+    <button class="q" onclick="backspace()">⌫</button>
+     <input class="b" type="text" id="display" disabled>
+
+  </div>
+
+ 
+
+   <script src="./src/main.js"></script>
+  </body>
+</html>
