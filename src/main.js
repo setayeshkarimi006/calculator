@@ -28,6 +28,8 @@ function power(){
 let base = parseFloat(display.value);
 let exponent = +prompt("توان مورد نظر را وارد کنید:");
 display.value= Math.power(base,exponent);
+document.getElementById("display").innerText = base + " به توان " + exponent + " = " + display;
+return
 }
 function ln(){
   display.value=Math.log(parseFloat(display.value))
